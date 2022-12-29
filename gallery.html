@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Coffe & Caffe</title>
+  <!-- Other files CSS-link -->
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="pop/magnific-popup.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--==================start-header-space==============-->
+  <header class="header" id="mainNav"> 
+    <nav class="direction_nav" id="navSocial">
+      <div class="container-fluid">
+        <div class="row mx-0">
+          <div class="col-md-5 px-0">
+            <div class="timing">
+              <a href="#">
+                <span class="title"><i class="far fa-clock"></i>Opening Hours :</span>
+                <span>08:00 AM - 09:00 PM</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2 px-0">
+            <ul class="social_media">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 px-0">
+            <div class="location">
+              <a href="#">
+                <span class="title"><i class="fas fa-map-marker-alt"></i>Location :</span>
+                <span>55 main Street ,New York</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <nav class="navbar navbar-expand-xl navigation align-item-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+        <span class="get_toggle navbar-toggler" id="toggle_id" type="button" data-bs-toggle="collapse"
+          data-bs-target="#Navtoggle" aria-controls="Navtoggle" aria-expanded="false"
+          aria-label="Toggle navigation"></span>
+        <div class="collapse navbar-collapse justify-content-end" id="Navtoggle">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="btn-triger">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#bookingTable" class="call_to_action">Book a table</a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--==================end-header-space==============-->
+
+  <!--========bannner===========-->
+  <section class="common_banner" style="background-image: url(image/banner2.jpg);">
+    <div class="container">
+      <div class="page_title">
+        <h1>Gallery</h1>
+      </div>
+    </div>
+  </section>
+  <!--========bannner===========-->
+  <!--==================end-header-space==============-->
+  
+ 
+  <!----==================Start_content================-->
+  <section class="gallery_photo py-5">
+    <div class="container">
+      <div class="heading_home text-center py-3">
+        <div class="section_sub_title"><span>Customer Feedback</span></div>
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div class="gallery_tab">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">View all</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Fast food</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">hot coffee</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">dinner menu</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">special pizza</button>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="tab_gallery_items">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal6.jpg" class="image-link">
+                    <img src="image/ins_gal6.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal5.jpg" class="image-link">
+                    <img src="image/ins_gal5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal4.jpg" class="image-link">
+                    <img src="image/ins_gal4.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal3.jpg" class="image-link">
+                    <img src="image/ins_gal3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal2.jpg" class="image-link">
+                    <img src="image/ins_gal2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab_gallery_items">
+            <div class="row">              
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal6.jpg" class="image-link">
+                    <img src="image/ins_gal6.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal5.jpg" class="image-link">
+                    <img src="image/ins_gal5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal4.jpg" class="image-link">
+                    <img src="image/ins_gal4.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal3.jpg" class="image-link">
+                    <img src="image/ins_gal3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal2.jpg" class="image-link">
+                    <img src="image/ins_gal2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+          <div class="tab_gallery_items">
+            <div class="row">              
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal6.jpg" class="image-link">
+                    <img src="image/ins_gal6.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal5.jpg" class="image-link">
+                    <img src="image/ins_gal5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal4.jpg" class="image-link">
+                    <img src="image/ins_gal4.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal3.jpg" class="image-link">
+                    <img src="image/ins_gal3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal2.jpg" class="image-link">
+                    <img src="image/ins_gal2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+          <div class="tab_gallery_items">
+            <div class="row">              
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal6.jpg" class="image-link">
+                    <img src="image/ins_gal6.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal5.jpg" class="image-link">
+                    <img src="image/ins_gal5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal4.jpg" class="image-link">
+                    <img src="image/ins_gal4.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal3.jpg" class="image-link">
+                    <img src="image/ins_gal3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal1.jpg" class="image-link">
+                    <img src="image/ins_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="gallery_items">
+                  <a href="image/ins_gal2.jpg" class="image-link">
+                    <img src="image/ins_gal2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!----==================End_content================-->
+   <!--==================start-bookTable-info-space==============-->
+   <section class="bookTable_sec py-5" style="background-image: url(image/cta_bg.jpg);">
+    <div class="container">
+      <div class="flex_pro">
+        <div class="heading_home py-2">
+          <div class="section_sub_title"><span>Need a table coffe house</span></div>
+          <h2>Booking Table for your & family memebers</h2>
+        </div>
+        <div class="booking_action">
+          <a href="#" class="call_to_action">Book Table</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==================end-bookTable-info-space==============-->
+
+  
+      <!---==============ourpartners================-->
+      <section class="our_partners py-md-5 py-2">
+        <div class="container">
+          <div class="swiper partner_slide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div>    
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide">
+                <div class="slide_img">
+                  <img src="image/brand1.png" alt="">
+                </div>
+              </div>         
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---==============ourpartners================-->
+    <!--==================start-footer-space==============-->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="logo_pic">
+              <a href="#">
+                <img src="image/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="our_time_table">
+              <h3>Working Hours</h3>
+              <ul>
+                <li>
+                  <span>Sunday - Thursday</span>
+                  <span class="title">08:00 am - 09:00pm</span>
+                </li>
+                <li>
+                  <span>Only Friday</span>
+                  <span class="title">03:00 am - 09:00pm</span>
+                </li>
+                <li><span class="closed">Sunday Close</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="our_are">
+              <h3>Working Hours</h3>
+              <ul>
+                <li>
+                  <span class="title">Location :</span>
+                  <span>55 Mian Street, New York</span>
+                </li>
+                <li>
+                  <span class="title">Email Address :</span>
+                  <span>03:00 am - 09:00pm</span>
+                </li>
+                <li>
+                  <span class="title">Phone Number :</span>
+                  <span>+91 5555555</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="our_gallery">
+              <h3>Working Hours</h3>
+              <div class="row mx-0">
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal1.jpg">
+                    <img src="image/grid_gal1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal2.jpg">
+                    <img src="image/grid_gal2.jpg">
+                  </a>
+                </div>
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal3.jpg">
+                    <img src="image/grid_gal3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal4.jpg">
+                    <img src="image/grid_gal4.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal5.jpg">
+                    <img src="image/grid_gal5.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-4 px-1">
+                  <a class="image-link" href="image/grid_gal1.jpg">
+                    <img src="image/grid_gal1.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--==================end-footer-space==============-->
+        <!--==================end-footer-space==============-->
+      <!--=============MOndal_booking-==========================-->
+      <div class="modal fade contact_here" id="bookingTable" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog background_area modal-dialog-centered" style="background: none;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><h3>Book A Table</h3></h5>
+              <button type="button" style="background-image: url(image/pic.svg);" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="heading_home text-center py-3">
+                <div class="section_sub_title"><span>Get every single update</span></div>
+                <h2>Make Reservation</h2>
+              </div>
+              <div class="modal_form contact_form">
+                <form action="">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <div class="inside_space">
+                          <input type="text" class="form-control">
+                          <div class="icon_form">
+                            <i class="fa fa-user"></i>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <div class="inside_space">
+                          <input type="text" class="form-control">
+                          <div class="icon_form">
+                            <i class="fa fa-user"></i>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <div class="inside_space">
+                          <input type="text" class="form-control">
+                          <div class="icon_form">
+                            <i class="fa fa-user"></i>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <div class="inside_space">
+                          <input type="text" class="form-control">
+                          <div class="icon_form">
+                            <i class="fa fa-user"></i>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>                               
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer px-0 py-2">
+              <button type="button" class="call_to_action" data-bs-dismiss="modal">Close</button>            
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--=============MOndal_booking-==========================-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- J-Query js-link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!-- AOS js-link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="pop/jquery.magnific-popup.js"></script>
+    <!-- Swiper js-link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Other files js-link -->
+    <!-- Custom js-link -->
+    <script>
+      var firstTabEl = document.querySelector('#myTab li:last-child a')
+      var firstTab = new bootstrap.Tab(firstTabEl)
+    
+      firstTab.show()
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+  
+  </html>
